@@ -31,6 +31,9 @@ option('dbus-service-use-appid', type: 'boolean', value: false,
 option('with-appdata', type: 'boolean',
   description: 'Install appdata files for app stores'
 )
+option('with-appindicator', type: 'boolean',
+  description: 'Build with lib(ayatana-)appindicator support in addition to xembed systray support.'
+)
 
 # Plugins
 option('with-checksum', type: 'boolean',
